@@ -19,8 +19,11 @@ java -cp BcelGenerator-1.0-SNAPSHOT-jar-with-dependencies.jar com.example.App fi
 第一个包：
 
 ```
-{"name": {"@type":"java.lang.Class","val":"com.sun.org.apache.bcel.internal.util
-.ClassLoader"}
+{"name": 
+	{
+		"@type":"java.lang.Class","val":"com.sun.org.apache.bcel.internal.util.ClassLoader"
+	}
+}
 ```
 
 第二个包：
