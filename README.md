@@ -1,6 +1,6 @@
 # BcelPayloadGenerator
 
-该payload使用tomcat-dbcp中的BasicDataSource，无需另起ldap或者RMI也可以触发。
+该payload使用tomcat-dbcp中的BasicDataSource，无需另起ldap或者RMI也可以触发fastjson漏洞。
 
 ### 1.准备好EvilConstructor的.class文件，放在任意文件内
 
